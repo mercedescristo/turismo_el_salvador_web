@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora El Salvador</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+
+        <nav class="navbar">
+
+            <h2 class="logo">
+                <i class="fa-solid fa-earth-americas"></i>
+                ExploraSV
+            </h2>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <h1>
+                Descubre la magia de El Salvador
+            </h1>
+
+            <p>
+                Playas, volcanes, gastronomía y aventuras inolvidables.
+                Vive una experiencia única con ExploraSV.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#servicios" class="btn-primary">
+                    Explorar destinos
+                </a>
+
+                <a href="#contacto" class="btn-secondary">
+                    Reservar ahora
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+
+        <div class="nosotros-texto">
+            <h2>¿Quiénes Somos?</h2>
+
+            <p>
+                Somos una agencia turística dedicada a mostrar la belleza
+                de El Salvador mediante experiencias inolvidables.
+                Organizamos viajes, tours gastronómicos y aventuras
+                para turistas nacionales e internacionales.
+            </p>
+        </div>
+
+        <div class="nosotros-img">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+            alt="Turismo">
+        </div>
+
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="servicios" id="servicios">
+
+        <h2>Nuestros Servicios</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="fa-solid fa-hotel icon"></i>
+
+                <h3>Alojamiento Premium</h3>
+
+                <p>
+                    Hospédate en hoteles exclusivos, cabañas y resorts.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-utensils icon"></i>
+
+                <h3>Gastronomía Típica</h3>
+
+                <p>
+                    Disfruta pupusas, mariscos y experiencias culinarias.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-plane-departure icon"></i>
+
+                <h3>Viajes y Tours</h3>
+
+                <p>
+                    Paquetes turísticos nacionales e internacionales.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALERIA -->
+    <section class="galeria">
+
+        <h2>Destinos Destacados</h2>
+
+        <div class="galeria-grid">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="playa">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="montaña">
+            <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e" alt="bosque">
+            <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206" alt="turismo">
+        </div>
+
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="contacto" id="contacto">
+
+        <h2>Contáctanos</h2>
+
+        <form id="formulario">
+
+            <input type="text"
+            id="nombre"
+            placeholder="Nombre completo">
+
+            <small id="errorNombre"></small>
+
+            <input type="email"
+            id="correo"
+            placeholder="Correo electrónico">
+
+            <small id="errorCorreo"></small>
+
+            <input type="tel"
+            id="telefono"
+            placeholder="Teléfono">
+
+            <small id="errorTelefono"></small>
+
+            <textarea
+            id="mensaje"
+            placeholder="Escribe tu mensaje"></textarea>
+
+            <small id="errorMensaje"></small>
+
+            <button type="submit">
+                Enviar mensaje
+            </button>
+
+            <p id="mensajeExito"></p>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>ExploraSV</h3>
+
+        <p>
+            Vive la aventura de conocer El Salvador.
+        </p>
+
+        <div class="redes">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+
+        <p class="copy">
+            © 2026 ExploraSV | Todos los derechos reservados
+        </p>
+
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
